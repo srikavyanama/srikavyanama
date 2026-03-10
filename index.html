@@ -786,8 +786,8 @@ footer p {
 
 /* ── ANIMATIONS ── */
 .fade-in {
-  opacity: 0;
-  transform: translateY(24px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
@@ -836,7 +836,7 @@ footer p {
       <span>Nama</span>
     </h1>
     <p class="hero-title">
-      <strong>Senior Security Analyst</strong> with nearly 5 years in enterprise SOC & incident response -
+      <strong>Senior Security Analyst</strong> with nearly 4+ years in enterprise SOC & incident response -
       now completing an <strong>M.S. in Cybersecurity at UC Berkeley</strong>.
       Specializing in threat hunting, SIEM/SOAR engineering, and endpoint forensics.
     </p>
@@ -847,7 +847,7 @@ footer p {
   </div>
   <div class="hero-stats fade-in">
     <div class="stat">
-      <div class="stat-num">5<span style="font-size:22px;color:var(--muted)">yrs</span></div>
+      <div class="stat-num">4+<span style="font-size:22px;color:var(--muted)">yrs</span></div>
       <div class="stat-label">Experience</div>
     </div>
     <div class="stat">
@@ -867,8 +867,8 @@ footer p {
   <h2 class="section-title">Security-first.<br>Always learning.</h2>
   <div class="about-grid fade-in">
     <div class="about-text">
-      <p>I'm a <strong>Senior Security Analyst</strong> based in Hayward, CA, with nearly 5 years of hands-on experience in enterprise SOC environments at HCL Technologies. I've led Tier 2 investigations, built SOAR playbooks, tuned SIEM correlation rules, and conducted deep endpoint forensics - across clients ranging from financial services to technology enterprises.</p>
-      <p>In 2024 I relocated to the United States to pursue a <strong>Master of Information and Cybersecurity at UC Berkeley</strong>, where I'm applying machine learning, cryptography, and AI governance principles to real-world security problems. My capstone project, <strong>ATLAS</strong>, has been published on the official Berkeley I School project gallery.</p>
+      <p>I'm a <strong>Senior Security Analyst</strong> based in Hayward, CA, with nearly 4+ years of hands-on experience in enterprise SOC environments at HCL Technologies. I've led Tier 2 investigations, built SOAR playbooks, tuned SIEM correlation rules, and conducted deep endpoint forensics - across clients ranging from financial services to technology enterprises.</p>
+      <p>In Fall 2024 I began my <strong>Master of Information and Cybersecurity at UC Berkeley</strong>, where I'm applying machine learning, cryptography, and AI governance principles to real-world security problems. My capstone project, <strong>ATLAS</strong>, has been published on the official Berkeley I School project gallery.</p>
       <p>I believe the best security professionals are both technical and contextual - understanding not just <em>how</em> systems fail, but <em>why</em> and <em>what it means</em> for the humans who depend on them.</p>
     </div>
     <div class="about-highlights">
@@ -933,11 +933,11 @@ footer p {
     </div>
     <div class="skill-card">
       <div class="skill-icon">⚡</div>
-      <div class="skill-category">SOAR & Automation</div>
+      <div class="skill-category">SOAR & Playbooks</div>
       <ul class="skill-list">
-        <li>Siemplify playbook development</li>
-        <li>Evidence collection automation</li>
-        <li>IOC enrichment workflows</li>
+        <li>Siemplify playbook configuration</li>
+        <li>Evidence collection workflows</li>
+        <li>IOC enrichment & case management</li>
         <li>25% faster response time achieved</li>
       </ul>
     </div>
@@ -957,7 +957,7 @@ footer p {
       <ul class="skill-list">
         <li>Python, Bash scripting</li>
         <li>scikit-learn, TensorFlow, numpy</li>
-        <li>ML for threat detection modeling</li>
+        <li>Applied ML for security research</li>
         <li>Log parsing & indicator validation</li>
       </ul>
     </div>
@@ -967,7 +967,7 @@ footer p {
 <!-- PROJECTS -->
 <section id="projects">
   <div class="section-tag">Projects</div>
-  <h2 class="section-title">Things I've<br>built & researched.</h2>
+  <h2 class="section-title">Research &<br>Projects.</h2>
   <div class="projects-grid fade-in">
 
     <!-- ATLAS - featured -->
@@ -1115,8 +1115,8 @@ footer p {
   <div class="contact-inner fade-in">
     <p class="contact-text">I'm actively looking for full-time opportunities starting May 2026 in the San Francisco Bay Area. Whether you're hiring, collaborating, or just want to talk security - I'd love to hear from you.</p>
     <div class="contact-links">
-      <a href="mailto:srikavyanama@gmail.com" class="contact-link">
-        <span>✉</span> srikavyanama@gmail.com
+      <a href="/cdn-cgi/l/email-protection#483b3a2123293e312926292529082f25292124662b2725" class="contact-link">
+        <span>✉</span> <span class="__cf_email__" data-cfemail="0675746f6d67707f6768676b6746616b676f6a2865696b">[email&#160;protected]</span>
       </a>
       <a href="https://linkedin.com/in/sri-kavya-nama" target="_blank" class="contact-link">
         <span>in</span> LinkedIn
@@ -1134,18 +1134,7 @@ footer p {
   <p>Hayward, CA · Open to opportunities May 2026</p>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // Scroll animations
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry, i) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => entry.target.classList.add('visible'), i * 80);
-    }
-  });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+  entries.forEach((entry, 
